@@ -15,13 +15,6 @@ public class Results {
 		
 	}
 	
-	@FindBy(xpath = "//*[contains(text()='2020 Apple MacBook Air Laptop: Apple M1 Chip, 13” Retina Display, 8GB RAM, 256GB SSD Storage, Backlit Keyboard, FaceTime HD Camera, Touch ID. Works with iPhone/iPad; Silver'])")
-	WebElement computer;
-	
-	public void clickComputer() {
-		computer.click();
-	}
-	
 	public Results(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
