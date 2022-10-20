@@ -1,6 +1,5 @@
 package amazonTests;
 
-import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import Common.CommonClass;
@@ -16,6 +15,5 @@ public class AmazonToPurchase extends CommonClass{
 	  
 	  Results result = new Results(driver);
 	  result.resultsToVerify();
-	  result.clickComputer();
   }
 }
